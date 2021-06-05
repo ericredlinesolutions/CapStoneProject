@@ -1,0 +1,13 @@
+       kind: RoleBinding
+       apiVersion: rbac.authorization.k8s.io/v1beta1
+       metadata:
+          name: role-test
+          namespace: superusers
+       subjects:
+       - kind: User
+         name: project_user
+         apiGroup: ""
+       roleRef:
+         kind: Role
+         name: project_user-role
+         apiGroup: ""
