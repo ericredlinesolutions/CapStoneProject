@@ -25,7 +25,7 @@ The following tools must be used:
 2.	Kubernetes
 3.	Docker
 4.	Ansible or Chef or Puppet
-5.	
+
 The following things to be kept in check:
 
 1.	You need to document the steps and write the algorithms in them.
